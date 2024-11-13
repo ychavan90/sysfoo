@@ -30,7 +30,6 @@ jobs:
   build-sysfoo-docker:
     runs-on: ubuntu-latest
     needs: [build-sysfoo-war]
-    
     steps:
       - name: Code Checkout or Code Clone
         uses: actions/checkout@v4
